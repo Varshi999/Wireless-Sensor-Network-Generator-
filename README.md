@@ -1,9 +1,12 @@
 # Wireless Sensor Network Generator and Connected Component Finder
 This project is a Python script that generates a random wireless sensor network, finds its connected components using either Breadth-First Search (BFS) or Depth-First Search (DFS) traversal, and visualizes the network using NetworkX and Matplotlib.
 
-## Installation
+## Requirements
 1. Make sure you have Python 3 installed.
 2. Download the _**create_sensor_network.py**_ to your local machine.
+                     (OR)
+3. Clone the Repository
+https://github.com/Varshi999/Wireless-Sensor-Network-Generator-.git
 
 ## Compilation
 _No compilation is needed for this Python script._
@@ -18,6 +21,17 @@ Follow the prompts to enter the network parameters and traversal options.
 
 ### Example
 Here is an example of running the script interactively
+```
+Varshith K Kalakota@DESKTOP-VO0174E MINGW64 ~/Documents/Spring_2024_Assignments/CSC-501/Proj2 (master)
+$ python create_sensor_network.py
+Welcome to Wireless Sensor Network Generator and Connected Component Finder!
+Enter width (x) of the sensor network (e.g., 50): 70
+Enter length (y) of the sensor network (e.g., 50): 70
+Enter number of sensor nodes (e.g., 50): 50
+Enter transmission range in meters (e.g., 15): 30
+Enter graph structure ('a' for adjacency matrix, 'b' for adjacency list): a
+Enter traversal method ('a' for BFS, 'b' for DFS): a
+```
 
 <img width="525" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/8bab3375-ec09-4f43-ae29-fe6b03efa731">
 
@@ -44,12 +58,16 @@ Here is an example of running the script interactively
 
 <img width="626" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/99591ac2-d2a3-4828-ba98-7ecf86e2a6ea">
 
+
+
 **Test Case 2:**
 
 <img width="960" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/8c476b27-ff90-4c25-b7a4-944f24997f15">
 
 
 <img width="584" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/584bf45b-c54d-48fe-87c5-5f3d73cd4ba4">
+
+
 
 **Test Case 3:**
 
@@ -58,12 +76,16 @@ Here is an example of running the script interactively
 
 <img width="596" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/79b6a848-404e-45b6-92ef-b6441f8b597e">
 
+
+
 **Test Case 4:**
 
 <img width="960" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/ecd8f672-b723-43a0-8ee4-b346d456207a">
 
 
 <img width="599" alt="image" src="https://github.com/Varshi999/Wireless-Sensor-Network-Generator-/assets/56188204/e326d8f7-da7c-457a-8f91-1a760567456e">
+
+
 
 **Test Case 5:**
 
